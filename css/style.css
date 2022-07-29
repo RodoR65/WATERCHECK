@@ -185,19 +185,23 @@ div.login span{
     padding-left: 11px;
     color: #1C1C1C;
 }
-.presentacion span{
+/* .presentacion span{
 	background: #e50914;
     padding: 22px;
     padding-bottom: 23px;
     font-weight: 500;
     margin-left: -5px;
     border: solid #d30f18;
-}
+} */
 
-.presentacion span:hover, .contPreguntas span:hover{
+/* .presentacion span:hover, .contPreguntas span:hover{
 	cursor: pointer;
 	background: red;
-}
+} */
+#Enviar:hover{
+	cursor: pointer;
+	background: #70b231;;
+} 
 
 /*CABECERA*/
 /*TV*/
@@ -287,7 +291,7 @@ div.login span{
 }
 
 .pregunta{
-	background: #303030;
+	background: #70b231;;
 	padding: 10px;
 	margin-bottom: 5px;
 	margin-top: 5px;
@@ -330,31 +334,46 @@ div.login span{
     color: #1C1C1C;
 }
 
-.contPreguntas span{
+/* .contPreguntas span{
 	background: #e50914;
     padding: 16px;
     padding-bottom: 19px;
     font-weight: 500;
     margin-left: -5px;
     border: solid #d30f18;
-}
+} */
 
 .contPreguntas h3{
 	font-size: 15px;
 }
 
 .pieContenido{
-	width: 1100px;
+	width: 1300px;
 	margin: auto;
 	display: flex;
 	justify-content: center;
+    margin-left: -80px;
 }
 
 .pie p{
 	padding:7px;
 }
+#location{
+    margin-left: 100px;
+}
 .pie .espacio{
 	width: 100px;
+}
+#Enviar{
+   float: right;
+   display: block;
+   margin-right: -98px;
+   padding: 20px;
+   margin-top: -20px;
+}
+#email{
+    margin-right: -40px;
+    margin-top: -150px;
 }
 
 /*PREGUNTAS*/
