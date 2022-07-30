@@ -375,5 +375,48 @@ div.login span{
     margin-right: -40px;
     margin-top: -150px;
 }
+#beneficios > ul > li{
+	/* height: 60px;
+    width: 380px; */
+    margin-top: 20px;
+    margin-bottom: 6px;
+    border-radius: 2px 0px 0px 2px;
+    border: solid 4px #5695e9;
+    padding: 18px;
+	text-align: center;
+	list-style: none;
+	width:55%;
+    
+    height: 43px;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+font-size:18px;
+}
+#beneficios > ul > li:hover{
+    background:#70b231;
+    box-shadow: 0px 0px 4px green inset; /* el inset signifinica que le sara el sombreado por dentro*/
+    transition: all 1s;
+	cursor: pointer;
+	
+    
+}
+.beneficios{
+	width: 100%;
+	height: auto;
+	border: 0;
+	position: relative;
+	z-index: 2;
+	border-radius: 100px;
+}
+#descargar{
+	margin-bottom:-45px; width: 100px;
+	margin-right: -100px;
+    position: relative;
+}
+#Link:hover{
+	cursor: pointer;
+	background: #70b231;
+	border:solid 2px #5695e9;
+	padding: 10px;
+}
 
 /*PREGUNTAS*/
