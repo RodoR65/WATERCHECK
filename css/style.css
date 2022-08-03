@@ -57,6 +57,77 @@ padding-right: 20px;
     transition: all 1s;
     
 }
+/* Aqui inicia la lista de contacto */
+#nav1 > ul >li> ul{
+    display:none;
+    /*  le daremos postion:absolute para que no desfigure el menu solamente se muestre */
+    position:absolute;
+    
+    width: 90px;
+    box-shadow:0px 2px 4px gray;
+     z-index: 1; /*para que se superponga encima de los elementos */
+
+}
+/* ahora mostraremos el menu despegable al hacer hover en el primer ul del elemento li */
+#nav1 >ul > li:hover > ul{
+    display: block;
+
+}
+#nav1 >ul > li:hover > ul > li{
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 70%);
+    color:white;
+    padding: 3px; 
+    line-height: 25px;
+    border-bottom: 1px solid #D6D6D6;
+    font-size: 13px;
+	align-items: center;
+    
+}
+/* #nav1 >ul > li:hover > ul > li > a{
+   
+    color: #666666;
+	
+
+} */
+#nav1 >ul > li:hover > ul > li:hover {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 70%);
+   box-shadow: 0px 4px 6px #5695e9 inset;
+   transition:all 0.5ms;
+   
+
+}
+/* aqui estamos ocultando y despues mostrando el li del correo electronico */
+#nav1 > ul >li> ul>li>ul{
+    display:none;
+    /*  le daremos postion:absolute para que no desfigure el menu solamente se muestre */
+    position:absolute;
+    
+    width: 300px;
+    box-shadow:0px 2px 4px gray;
+     z-index: 1; /*para que se superponga encima de los elementos */
+
+}
+#nav1 >ul > li> ul > li:hover >ul{
+    display: block;
+
+}
+#nav1 >ul > li > ul > li:hover > ul > li{
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 70%);
+    color:white;
+    padding: 3px; 
+    line-height: 25px;
+    border-bottom: 1px solid #D6D6D6;
+    font-size: 20px;
+	align-items: center;
+    
+}
+#nav1 >ul > li:hover > ul > li:hover>ul>li {
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 70%);
+   box-shadow: 0px 4px 6px #5695e9 inset;
+   transition:all 0.5ms;
+   
+
+}
 #Titulo{
 	line-height:300px;
 	font-size: 4rem;
@@ -418,5 +489,15 @@ font-size:18px;
 	border:solid 2px #5695e9;
 	padding: 10px;
 }
-
+#footer{
+    width:100%;
+    margin:0px auto;
+    background-color:#333333;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 10px;
+    color: white;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 5px #70b237;
+}
 /*PREGUNTAS*/
